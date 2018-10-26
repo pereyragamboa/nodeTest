@@ -8,7 +8,7 @@ console.log(os.cpus());
 
 const app = express();
 
-app.get('/', (req, res) => res.send('FNORD!'));
+app.get('/', (req, res) => res.send('foo bar'));
 app.get('/about', (req, res) => res.send('v0.1'));
 app.get('/contact', (req, res) => res.send('Inquiries: pereyra@example.com'));
 
